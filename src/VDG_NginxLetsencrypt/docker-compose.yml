@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mainapplication:
+    image: ${DOCKER_REGISTRY-}mainapplication
+    build:
+      context: .
+      dockerfile: MainApplication/Dockerfile

@@ -1,0 +1,21 @@
+﻿<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="nginx-docker-compose" type="docker-deploy" factoryName="docker-compose.yml" singleton="false" server-name="remote.docker.dev.192.168.10.50">
+    <deployment type="docker-compose.yml">
+      <settings>
+        <option name="composeProjectName" value="nginx-letsencrypt" />
+        <option name="envFilePath" value="" />
+        <option name="removeVolumesOnComposeDown" value="true" />
+        <option name="commandLineOptions" value="--build" />
+        <option name="secondarySourceFiles">
+          <list>
+            <option value="docker-compose.yml" />
+          </list>
+        </option>
+        <option name="sourceFilePath" value="docker-compose.override.yml" />
+        <option name="upRemoveOrphans" value="true" />
+      </settings>
+    </deployment>
+    <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isPublishEnabled="true" />
+    <method v="2" />
+  </configuration>
+</component>

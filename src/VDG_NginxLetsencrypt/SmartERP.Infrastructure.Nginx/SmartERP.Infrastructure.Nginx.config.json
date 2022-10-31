@@ -1,0 +1,5 @@
+{
+  "EnableNginx" : "true", // Will enable if inside Docker and EnableNginx == true
+  "UsingLetsEncrypt" : "true", // Only matters if EnableNginx == true
+  "Domain" : "erp.lbs.com.vn"
+}

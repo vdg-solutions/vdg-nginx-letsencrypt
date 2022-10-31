@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>CryptoPaymentGateway.Infrastructure.Nginx</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CliWrap" Version="3.5.0" />
+      <PackageReference Include="MediatR" Version="11.0.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Hosting.Server.Abstractions" Version="2.2.0" />
+      <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+      <PackageReference Include="Quartz.AspNetCore" Version="3.5.0" />
+      <PackageReference Include="VDG_EngineFramework" Version="1.0.1" />
+      <PackageReference Include="VDG_SchedulerFramework" Version="1.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="SmartERP.Infrastructure.Nginx.config.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>

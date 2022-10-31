@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartERP.Infrastructure.Nginx", "SmartERP.Infrastructure.Nginx\SmartERP.Infrastructure.Nginx.csproj", "{94CFA3D8-DAFD-4E27-A75B-56EBEFBB8E2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainApplication", "MainApplication\MainApplication.csproj", "{9E7060FC-BB5F-4CD6-9791-EBA5F9C01746}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DE237922-92A9-4B5F-97C1-5674EC35BCC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{5B6F42F2-2B68-4CDF-AA34-A8D3C5362A9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nginx", "nginx", "{87E0C34F-9CB6-46D2-A4D0-52DD3F1CB2F6}"
+	ProjectSection(SolutionItems) = preProject
+		Gateway\nginx\cert.crt = Gateway\nginx\cert.crt
+		Gateway\nginx\cert.key = Gateway\nginx\cert.key
+		Gateway\nginx\nginx.conf = Gateway\nginx\nginx.conf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94CFA3D8-DAFD-4E27-A75B-56EBEFBB8E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94CFA3D8-DAFD-4E27-A75B-56EBEFBB8E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94CFA3D8-DAFD-4E27-A75B-56EBEFBB8E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94CFA3D8-DAFD-4E27-A75B-56EBEFBB8E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E7060FC-BB5F-4CD6-9791-EBA5F9C01746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7060FC-BB5F-4CD6-9791-EBA5F9C01746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7060FC-BB5F-4CD6-9791-EBA5F9C01746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7060FC-BB5F-4CD6-9791-EBA5F9C01746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE237922-92A9-4B5F-97C1-5674EC35BCC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE237922-92A9-4B5F-97C1-5674EC35BCC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE237922-92A9-4B5F-97C1-5674EC35BCC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE237922-92A9-4B5F-97C1-5674EC35BCC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35F8F6A1-1A21-4A64-9D84-A97FE7478D7D}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87E0C34F-9CB6-46D2-A4D0-52DD3F1CB2F6} = {5B6F42F2-2B68-4CDF-AA34-A8D3C5362A9A}
+	EndGlobalSection
+EndGlobal
